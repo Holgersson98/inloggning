@@ -1,0 +1,29 @@
+/* lagt in en bakrundsfärg */
+body{
+    background-color: aqua; 
+}
+/* lagt det som flex med en direction och ändrat så mina grejer är centrerat */
+.Huvud{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+/* gjort samma grej här som i huvud */
+.regler{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+/* ändrat så att bilderna är centrerade */
+.bilder{
+    display: flex;
+    justify-content: center;
+    
+}
+/* gjort så bilderna blir lika stora och passar in så som jag vill he dem */
+.bilder img{
+    height: 15rem;
+    width: 25rem;
+    
+}

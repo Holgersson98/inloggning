@@ -12,6 +12,7 @@ btn.onclick = function () {
         btn.onclick = function(){
             if (key == "Sara" && value == "qwe123") {
                 location.reload(alert("Du är nu utloggad"));
+                localStorage.clear()
                 
             }
         };

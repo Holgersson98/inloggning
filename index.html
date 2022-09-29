@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/> <!--länk till min css-->
+    <title>Document</title>
+</head>
+<body>
+    
+        <div class="Huvud"> 
+            <h1 class="namn">Simklubb</h1>
+            <fieldset class="inlogg">
+                <legend>Logga in:</legend>
+                <input id="inpkey" type="text" placeholder="användarnamn"/>
+                <input id="inpvalue" type="text" placeholder="lösenord"/>
+                <button id="btn" type="button">logga in</button>
+            </fieldset>
+        </div> <!-- detta är min första div class där jag har min Huvudrubrik alltså Simklubb, sedan har jag ett fieldset element vilket gör att det blir en liten box runt mitt inehåll. Använt mig av legend tag vilket ger en rubrik och lägger sig i linje med fieldset -->
+        <!--Sedan har jag 2st inputs en för användarnamn och en för lösenord. Efter det har jag gjort en button, en för logga in-->
+        <!--Jag har lagt till id på mina inputs och button för att jag ska komma åt dom i javascriptet-->   
+        <div class="regler">
+            <h2>Regler:</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi, modi. </p>
+        </div> <!-- i min andra div class har jag en underrubrik med Regler och en paragraf med en lorem text -->
+        <div class="bilder">
+            <img src="./sim.jfif"/>
+            <img src="./simskola.jpg"/>
+        </div> <!-- I min sista div så har jag en class där jag har lagt in 2st bilder  -->
+    
 
+    <script src="script.js"></script> <!-- länk till min javascript-->
+</body>
+</html>
